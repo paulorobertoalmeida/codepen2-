@@ -1,16 +1,8 @@
-import React, { Component } from 'react'
-import PropTypes from 'prop-types'
-
-export default class main extends Component {
-    static propTypes = {
-        prop: PropTypes
-    }
-
-    render() {
-        return (
-            <div>
-                
-            </div>
-        )
-    }
-}
+document.querySelector(".menu-btn").addEventListener("click", () => {
+    document.querySelector(".nav-menu").classList.toggle("show");
+  });
+  
+  ScrollReveal().reveal('.showcase');
+  ScrollReveal().reveal('.news-cards', { delay: 500 });
+  ScrollReveal().reveal('.cards-banner-one', { delay: 500 });
+  ScrollReveal().reveal('.cards-banner-two', { delay: 500 });
